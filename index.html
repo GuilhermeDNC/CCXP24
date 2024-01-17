@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCXP2022</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <img src="./imagens/ccxp.svg" alt="error" class="logo">      
+    </header>
+
+    <section>
+        <div class="secao1">
+            <h1 class="h1">REVIVA O ÉPICO</h1><br>
+            <h3 class="h3">DE 01 A 04 DE DEZEMBRO</h3>
+            <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+        </div>
+
+        <div class="secao2">
+          <div class="timer">
+            <div class="countdown-el">
+                <h1 id="dia">00</h1>
+                <span>D</span>
+                
+            </div>
+            <div class="countdown-el">
+                <h1 id="hora">00</h1>
+                <span>H</span>                
+            </div>
+            <div class="countdown-el">
+                 <h1 id="minuto">00</h1>
+                 <span>M</span>                  
+            </div>
+            <div class="countdown-el">
+                <h1 id="segundo">00</h1> 
+                <span>S</SPan>                                  
+            </div>
+          </div> 
+          <br>    
+
+        <h3 class="titulo-timer">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3><br>
+        <video controls loop><source src="./video/Arlequina.mp4" type="video/mp4"></video>               
+        </div>
+    </section>                                  
+                              
+         
+    <footer>
+        <div class="rodape">
+            <h1>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h1><br>
+            <img src="./imagens/qui.svg" class="cards-ingressos" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
+            <img src="./imagens/sex.svg" class="cards-ingressos" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta">
+            <img src="./imagens/esg.svg" class="cards-ingressos" onclick="selectCard('#esgotado')" onmouseover="highlightCard('#esgotado')" onmouseout="highlightCard('#esgotado')" id="esgotado">
+            <img src="./imagens/dom.svg" class="cards-ingressos" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo">
+        </div>
+        <button onclick="showSelectedCards()">GARANTA O SEU!</button>
+    
+            
+    </footer>
+    <div>
+        <form action="https://www.google.com">
+            <input type="email" placeholder="Seu email" required>
+            <input type="submit">
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="main.js"></script>
+
+
+</body>
+</html>

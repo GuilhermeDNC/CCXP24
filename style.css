@@ -1,0 +1,203 @@
+html{
+    font-size: 62,5%;
+}
+
+*{
+   margin: 0;
+    
+}
+           
+header{
+    background-color:  #FFD900;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+              
+}
+
+.logo{
+    width: 150px;
+    height: 80px;
+       
+}
+
+section{
+    display: flex;
+    width: 100%;
+    
+}
+
+.secao1 {
+    background-color: #514988;
+    padding-top: 2%;
+    width: 45%;
+}
+
+.secao2{
+     
+}
+
+.timer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    padding-left: 6%;
+    
+    
+}
+
+.countdown-el{
+    display: flex;
+}
+
+.h1 {
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+.h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.600rem;
+    font-weight: 700;
+    line-height: 300%;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.500rem;
+    font-weight: 400;
+    margin: 45px 45px 5px 45px;
+}
+
+span {
+    color: #514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+#dia{    
+    color: #514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+#hora{    
+    color: #514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+#minuto{    
+    color: #514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+#segundo{    
+    color: #514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 3.500rem;
+    font-weight: 700;
+}
+
+.titulo-timer{    
+    color: #E33881;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 1.550rem;
+    font-weight: 700;
+    padding-left: 8%;
+}
+
+video{    
+    width: 50vw;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    margin-top: 3%;
+   
+}
+
+.rodape{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 8%;
+    
+
+}
+
+.rodape h1{    
+    color: #F3C61F;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2%;
+}
+
+button{   
+    width: 25rem;
+    height: 6rem;
+    border-radius: 1.25rem;
+    background: #514988;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+button:hover{
+   
+    cursor: pointer;
+    color: #FFD900;
+}
+
+.rodape img{   
+    width: 10rem;
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.card-selected{
+    border: 5px solid green;
+}
+
+input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
